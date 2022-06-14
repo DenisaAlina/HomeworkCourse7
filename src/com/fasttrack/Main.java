@@ -13,9 +13,9 @@ public class Main {
         System.out.println(person3);
 
 
-        Product product1 = new Product("Apple", 10.0,20, "fruit");
-        Product product2 = new Product("Grapes", 15.0,15, "fruit");
-        Product product3 = new Product("Flour", 5.0,50, "food");
+        Product product1 = new Product("Apple", 10.0, 20, "fruit");
+        Product product2 = new Product("Grapes", 15.0, 15, "fruit");
+        Product product3 = new Product("Flour", 5.0, 50, "food");
 
         Scanner scanner = new Scanner(System.in);
         String category = scanner.next();
@@ -28,8 +28,8 @@ public class Main {
         System.out.println(product2.hasStock());
         System.out.println(product3.hasStock());
 
-        System.out.println(product1.getName() + " has price : "+ product1.getPrice() + " and stock: "+ product1.getQuantity() + " and is from category: "+ product1.getCategory());
-        System.out.println(product2.getName() + " has price : "+ product2.getPrice() + " and stock: "+ product2.getQuantity() + " and is from category: "+ product2.getCategory());
-        System.out.println(product3.getName() + " has price : "+ product3.getPrice() + " and stock: "+ product3.getQuantity() + " and is from category: "+ product3.getCategory());
+        System.out.println(product1.getName() + " has price : " + product1.getPrice() + " and stock: " + product1.getQuantity() + " and is from category: " + product1.getCategory());
+        System.out.println(product2.getName() + " has price : " + product2.getPrice() + " and stock: " + product2.getQuantity() + " and is from category: " + product2.getCategory());
+        System.out.println(product3.getName() + " has price : " + product3.getPrice() + " and stock: " + product3.getQuantity() + " and is from category: " + product3.getCategory());
     }
 }

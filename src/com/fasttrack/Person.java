@@ -1,9 +1,9 @@
 package com.fasttrack;
 
 public class Person {
-    private int age ;
+    private int age;
     private String name;
-    private  boolean married;
+    private boolean married;
 
     public int getAge() {
         return age;

@@ -29,15 +29,15 @@ public class Product {
         this.category = category;
     }
 
-    public boolean hasStock(){
-        if (this.quantity != 0){
+    public boolean hasStock() {
+        if (this.quantity != 0) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
 
-    public boolean isCategory( String category){
+    public boolean isCategory(String category) {
         return this.category.equalsIgnoreCase(category);
     }
 }
